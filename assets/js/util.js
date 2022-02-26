@@ -14,7 +14,7 @@ window.requestAnimationFrame = (function(){
     return Math.floor(Math.random()*(max-min)) + min
   }
 
-  window.createRandomRGBColor = function(){
+  window.getRandomRGBColor = function(){
     let red = getRandomInt(0,257)
     let green = getRandomInt(0,257)
     let blue = getRandomInt(0,257)
